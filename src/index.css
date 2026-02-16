@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --heist-dark: #0a0a0f;
+  --heist-panel: #12121a;
+  --heist-success: #22c55e;
+  --heist-alarm: #ef4444;
+  --heist-risk: #eab308;
+  --heist-premium: #a855f7;
+  --heist-skill: #3b82f6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: var(--heist-dark);
+  color: #e5e7eb;
+  min-height: 100vh;
+}
